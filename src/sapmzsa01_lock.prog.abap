@@ -1,0 +1,14 @@
+*&---------------------------------------------------------------------*
+*& Modulpool SAPMBC414_BOOK_LOCK_S
+*&---------------------------------------------------------------------*
+
+INCLUDE MZSA01_LOCK_TOP.
+*INCLUDE MBC414_BOOK_LOCK_STOP.
+INCLUDE MZSA01_LOCK_O01.
+*INCLUDE MBC414_BOOK_LOCK_SO01.
+INCLUDE MZSA01_LOCK_I01.
+*INCLUDE MBC414_BOOK_LOCK_SI01.
+INCLUDE MZSA01_LOCK_F01.
+*INCLUDE MBC414_BOOK_LOCK_SF01.
+INCLUDE MZSA01_LOCK_F02.
+*INCLUDE MBC414_BOOK_LOCK_SF02.

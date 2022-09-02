@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/core/mvc/Controller"],function(n){"use strict";return n.extend("sync.zca01nav01.controller.View1",{onInit:function(){},onTableItemClick:function(n){}})});                                                                              

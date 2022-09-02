@@ -1,0 +1,3 @@
+sap.ui.define(["sap/ui/core/mvc/Controller","sap/ui/model/json/JSONModel","sap/ui/model/Filter"],function(e,t,i){"use strict";return e.extend("sync.zca01od01.controller.View1",{onInit:function(){},onSelect:function(e){let t=e.getParameter("selectedItem")+
+;let n=t.getBindingContext().getProperty("Carrid");let l=this.getView().byId("idTable");let o=new i("Carrid","EQ",n);l.getBinding("items").filter(o)},onSearch:function(){let e=this.getView().byId("idComboBox").getSelectedKey();let t=this.getView().byId("+
+idTable");let n=new i("Carrid","EQ",e);t.getBinding("items").filter(n)}})});                                                                                                                                                                                   
